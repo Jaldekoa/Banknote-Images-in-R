@@ -1,4 +1,4 @@
-# Banknotes-Images-in-R
+# Banknote Images in R
 In this repository I explain how to draw the famous charts of the loss of purchasing power of the dollar or the euro in R language.
 
 ![](https://github.com/Jaldekoa/Banknotes-Images-in-R/blob/main/Final%20Plot.jpg)
