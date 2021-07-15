@@ -44,8 +44,10 @@ graph <- ggplot(df, aes(x = Date, y = PPP)) +
     y="",
     caption="Data: HICP - Overall Index of Euro Area. Source: ECB Statistical Data Warehouse.") +
   
-  # Add a theme
-  theme_minimal()
+  # Add a theme and other aesthetics modifications
+  theme_minimal() +
+  theme(plot.title = element_text(face="bold", hjust=0.5, size=rel(1.5)),
+        plot.subtitle = element_text(face="italic", hjust=0.5))
 
 # Plot it!
 graph
