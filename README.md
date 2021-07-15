@@ -1,7 +1,7 @@
 # Banknote Images in R
 In this repository I explain how to draw the famous charts of the loss of purchasing power of the dollar or the euro in R language.
 
-![](https://github.com/Jaldekoa/Banknotes-Images-in-R/blob/main/Final%20Plot.jpg)
+![Banknote chart](https://github.com/Jaldekoa/Banknote-Images-in-R/blob/main/Plot.jpg)
 
 ## Code and explanations
 First, the required libraries are: jpeg, grid and ggplot2.
@@ -61,8 +61,10 @@ graph <- ggplot(df, aes(x = Date, y = PPP)) +
     y="",
     caption="Data: HICP - Overall Index of Euro Area. Source: ECB Statistical Data Warehouse.") +
   
-  # Add a theme
-  theme_minimal()
+  # Add a theme and other aesthetics modifications
+  theme_minimal() +
+  theme(plot.title = element_text(face="bold", hjust=0.5, size=rel(1.5)),
+        plot.subtitle = element_text(face="italic", hjust=0.5))
 
 # Plot it!
 graph
