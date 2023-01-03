@@ -1,7 +1,7 @@
 # Banknote Images in R
 In this repository I explain how to draw the famous charts of the loss of purchasing power of the dollar or the euro in R language.
 
-![Banknote chart](https://github.com/Jaldekoa/Banknote-Images-in-R/blob/main/Poder Adquisitivo del €uro en España.jpg)
+![Banknote chart](https://github.com/Jaldekoa/Banknote-Images-in-R/blob/main/Poder%20Adquisitivo%20del%20%E2%82%ACuro%20en%20Espa%C3%B1a.jpg)
 
 ## Code and explanations
 First, the required libraries are: jpeg, grid and ggplot2.
